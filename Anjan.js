@@ -3,7 +3,7 @@ let expression = '';
 function appendToResult(value) {
   expression += value;
   document.getElementById('result').value = expression;
-}
+} 
 
 function calculate() {
   try {
